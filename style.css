@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parfume{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2rem;
+    height: auto;
+    width: 42rem;
+    background-color: white;
+    border-radius: 0.8rem;
+    position: absolute;
+  top: 50%;
+
+  transform: translate(0, -50%);
+
+}
+.parfume-img img{
+    object-fit: cover;
+    width: 100%;
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+}
+.parfume-text{
+        object-fit: contain;
+}
+.p1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.25rem;
+    margin-top: 2em;
+}
+.p2{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    margin-right: 5rem;
+}
+.p3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.875;
+    color: hsl(228, 12%, 48%);
+    margin-right: 2.5rem;
+}
+.pr1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    display: inline-block;
+    padding-bottom: 0.8rem;
+}
+.pr2{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    text-decoration:line-through ;
+    display: inline-block;
+    margin-left: 1rem;
+    position: relative;
+    white-space: nowrap;
+    top: -0.3em;
+
+}
+.buy-button{
+   background-color: hsl(158, 36%, 37%); 
+   border-style: none;
+   border-radius: 0.5rem;
+   color: white;
+   width: 15rem;
+   height: 3rem;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 0.9rem;
+   font-weight: 700;
+   align-items:center;
+   justify-content: center;
+}
+.svg1{
+    margin-right:0.3rem ;
+    display: inline-flex;
+    align-self: center;
+}
+.buy-button:hover{
+    background-color: hsl(156, 42%, 18%);
+}
